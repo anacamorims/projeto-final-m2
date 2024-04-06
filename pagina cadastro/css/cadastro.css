@@ -29,6 +29,7 @@ main {
 }
 
 .form_login {
+    font-family:  "Montserrat", sans-serif;
     display: flex;
     flex-direction: column;
     width: 400px;
