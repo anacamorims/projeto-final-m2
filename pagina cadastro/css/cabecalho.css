@@ -93,3 +93,27 @@ a:visited{
     margin-right: auto; 
 }
 
+@media screen and (max-width: 480px){
+    
+    .list-social{
+        display: none;
+    }
+
+    .btn-more-info{
+        display: none;
+    }
+
+    .img-logo-header{
+        width:200px;
+    }
+
+    .img-footer{
+        display: none;
+    }
+    
+    #p-footer{
+        font-size: 15px;
+        text-align: center;
+    }
+
+}

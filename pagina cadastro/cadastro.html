@@ -22,13 +22,14 @@
 
         <nav class="list-nav">
 
-            <img src="/pagina principal/assets/logo.png" width="300px" alt="Logo">
+            <a href="http://127.0.0.1:5500/pagina%20principal/index.html"><img class="img-logo-header" src="/pagina principal/assets/logo.png" width="300px" alt="Logo"></a>
 
-            <li><button class="btn-more-info">Sobre nós</button></li>
-            <!-- <li><button class="btn-more-info">Seja Voluntário</button></li> -->
-            <li><button class="btn-more-info">Conhecimento</button></li>
+            <li><button class="btn-more-info">Sobre Nós</button></li>
+
+            <li><button class="btn-more-info">Saiba mais</button></li>
 
             <section class="list-social">
+
                 <li><img class="social"
                         src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAsMCwyNTYsMjU2IgpzdHlsZT0iZmlsbDojMDAwMDAwOyI+CjxnIGZpbGw9IiNkOWQ5ZDkiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxnIHRyYW5zZm9ybT0ic2NhbGUoMTAuNjY2NjcsMTAuNjY2NjcpIj48cGF0aCBkPSJNOCwzYy0yLjc1NywwIC01LDIuMjQzIC01LDV2OGMwLDIuNzU3IDIuMjQzLDUgNSw1aDhjMi43NTcsMCA1LC0yLjI0MyA1LC01di04YzAsLTIuNzU3IC0yLjI0MywtNSAtNSwtNXpNOCw1aDhjMS42NTQsMCAzLDEuMzQ2IDMsM3Y4YzAsMS42NTQgLTEuMzQ2LDMgLTMsM2gtOGMtMS42NTQsMCAtMywtMS4zNDYgLTMsLTN2LThjMCwtMS42NTQgMS4zNDYsLTMgMywtM3pNMTcsNmMtMC41NTIyOCwwIC0xLDAuNDQ3NzIgLTEsMWMwLDAuNTUyMjggMC40NDc3MiwxIDEsMWMwLjU1MjI4LDAgMSwtMC40NDc3MiAxLC0xYzAsLTAuNTUyMjggLTAuNDQ3NzIsLTEgLTEsLTF6TTEyLDdjLTIuNzU3LDAgLTUsMi4yNDMgLTUsNWMwLDIuNzU3IDIuMjQzLDUgNSw1YzIuNzU3LDAgNSwtMi4yNDMgNSwtNWMwLC0yLjc1NyAtMi4yNDMsLTUgLTUsLTV6TTEyLDljMS42NTQsMCAzLDEuMzQ2IDMsM2MwLDEuNjU0IC0xLjM0NiwzIC0zLDNjLTEuNjU0LDAgLTMsLTEuMzQ2IC0zLC0zYzAsLTEuNjU0IDEuMzQ2LC0zIDMsLTN6Ij48L3BhdGg+PC9nPjwvZz4KPC9zdmc+"
                         width="30px" height="30px" alt="Instagram"></li>
@@ -50,12 +51,14 @@
                         width="30px" height="30px" alt="LinkedIn"></li>
             </section>
 
+
             <div class="darkMode">
 
                 <input type="checkbox" class="checkbox" id="chk">
+
                 <label class="label" for="chk">
-                    <i></i>
-                    <i></i>
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
                   <div class="ball"></div>
                 </label>
           
@@ -64,48 +67,53 @@
         </nav>
 
     </header>
-    <br><br><br><br><br><br><br><br>
+
+    
+
     <main>
 
-       
-            <form class="form_login" action="#" method="post" onsubmit="return cadastrar()">
+        <form class="form_login" method="post" onsubmit="return cadastrar()">
         
-                <label class="" for="nome" id="labelNome"> Nome:</label>
-                <input class="" type="text" id="nome" name="nome" maxlength="60" autofocus>
+            <label for="nome" id="labelNome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" maxlength="60" autofocus>
         
-                <label for="idade" id='labelidade' class="">Idade</label>
-                <input class="" type="text" id="idade" name="idade" maxlength="2" placeholder="Digite sua idade" />
-        
-        
-                <label for="cel" class="" id='labelCel'> Telefone Celular:</label>
-                <input class="" type="tel" id="numeroCelular" name="numeroCelular" placeholder="(xx) xxxxx-xxxx" maxlength="14">
+            <label for="idade" id="labelidade" >Idade</label>
+            <input type="text" id="idade" name="idade" maxlength="2" placeholder="Digite sua idade">
         
         
-                <div id="mensagem"></div>
+            <label for="cel" id="labelCel">Telefone Celular</label>
+            <input type="tel" id="numeroCelular" name="numeroCelular" placeholder="(xx) xxxxx-xxxx" maxlength="14">
         
-                <button class="" type="submit">Enviar</button>
-            </form>
-       
-
-        <script src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
-        <script src="/pagina cadastro/js/cadastro.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
-        <script src="/pagina cadastro/js/darkMode.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
-
-
+        
+            <div id="mensagem"></div>
+        
+            <button type="submit">Enviar</button>
+            
+        </form>
 
     </main>
+
 
     <footer>
 
         <div class="footer-content">
-            <img class="img-footer" src="/pagina principal/assets/logo.png" width="200px" height="50px" alt="Logo">
+
+            <a href="http://127.0.0.1:5500/pagina%20principal/index.html"><img class="img-footer" src="/pagina principal/assets/logo.png" width="200px" height="50px" alt="Logo"></a>
             <p id="p-footer">Desenvolvido pela <strong>Squad 2</strong> como projeto final do M2 para a <a
-                href="https://programadoresdoamanha.org/" target="_blank">Programadores do Amanhã</a></p>
+            href="https://programadoresdoamanha.org/" target="_blank">Programadores do Amanhã</a></p>
+
         </div>
 
     </footer>
+
+
+    <script src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
+    <script src="/pagina cadastro/js/cadastro.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+    <script src="/pagina cadastro/js/darkMode.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+
 
 </body>
 
