@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Average+Sans&family=Bebas+Neue&family=Cabin:ital,wght@0,400..700;1,400..700&family=Francois+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
 
 *{
     padding: 0;
@@ -51,99 +48,78 @@ header{
     transform: scale(1.1);
 }
 
-h1{
-    font-family: "Montserrat", sans-serif;
-    color: white;
-    background-color: #1690a3;
+
+.titulo{
+font-family:"Montserrat", sans-serif ;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 40px;
+height: 180px;
+background-color: #1690a3;
+border-bottom: #faf36d solid;
+}
+
+.main-container{
+    background-color: white;
+    height: 3000px;
+
+}
+
+.img-texto{
     display: flex;
+    justify-content:center;
+
+}
+
+.container-texto{
+display: table-column;
+justify-content: center;
+align-items: center;
+margin-top: -55px;
+}
+
+.img-onu{
+    margin-left: 260px;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: center;
-    font-size: 65px;
-    height: 260px;
-    border-bottom: #faf36d solid 4px;
 }
 
-.quem-somos{
-    background-color: #f1f1f1;
-    display: flex;
-    font-size: 15px;
-    font-family: "Montserrat", sans-serif;
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
-.p-quem-somos{
-    text-align: center;
-    width: 400px;
-    padding: 30px;
-    margin-left: 400px;
-    justify-content: center;
-    align-items: center;
-    font-size: larger;
-}
-
-.div-valores{
-    background-color: #f9f9f9;
-}
-
-.valores{
-    background-color: #f9f9f9;
-    font-family: "Montserrat", sans-serif;
-    height: 600px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    padding-top: 70px;
-    padding-bottom: 70px;
-    width: 400px;
-    margin: auto;
-}
-
-.visao-de-transformacao{
-    background-color: #1690a3;
-    font-family: "Montserrat", sans-serif;
-    color: white;
-    text-align: center;
-    font-size: larger;
-    padding: 10px;
-}
-
-.h2-visao-de-transformacao{
-    color: #1690a3;
-    background-color: #faf36d;
-    width: 500px;
-    margin: auto;
-    padding: 10px;
-}
-
-.p-visao-de-transformacao{
-    text-align: center;
-    padding: 10px;
-}
-
-.h2-historia{
-    text-align: center;
-    font-family: "Montserrat", sans-serif;
-    color: #1690a3;
-    padding: auto;
-    margin-top: 30px;
-    font-size: 40px;
-}
-
-.div-historia{
-    font-family: "Montserrat", sans-serif;
-    display: flex;
-    padding-bottom: 30px;
-}
-
-.p-historia{
-    padding: 30px;
-    font-size: 19px;
-}
-
-.img-historia{
-    display: flex;
+.texto-p{
+    font-size: 26px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     padding: 40px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.texto-p2{
+    font-size: 20px;
+    padding:40px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.img-texto2{
+margin-left: 120px;
+display: flex;
+}
+
+.img-onuu{
+    height: 150px;
+    width: 150px;
+    
+}
+
+.texto-onuu{
+    padding: 20px;
+    font-size:20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+#secti{
+    margin-bottom: 100px;
 }
 
 footer{
@@ -182,70 +158,4 @@ a:visited{
 
 .img-footer{
     margin-right: auto; 
-}
-
-.titulo{
-display: flex;
-align-items: center;
-justify-content: center;
-font-size: 40px;
-height: 180px;
-background-color: rgb(248, 135, 30);
-}
-
-.main-container{
-    background-color: white;
-    height: 3000px;
-
-}
-
-.img-texto{
-    display: flex;
-    justify-content:center;
-
-}
-
-.container-texto{
-display: table-column;
-justify-content: center;
-align-items: center;
-margin-top: -55px;
-}
-
-.img-onu{
-    margin-left: 260px;
-
-}
-
-.texto-p{
-    font-size: 26px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    padding: 40px;
-}
-
-.texto-p2{
-    font-size: 20px;
-    padding:40px;
-}
-
-.img-texto2{
-margin-left: 120px;
-display: flex;
-}
-
-.img-onuu{
-    height: 150px;
-    width: 150px;
-    
-}
-
-.texto-onuu{
-    padding: 20px;
-    font-size:20px;
-
-}
-
-#secti{
-    margin-bottom: 80px;
 }
