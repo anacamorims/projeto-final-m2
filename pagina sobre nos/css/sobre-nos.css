@@ -64,8 +64,9 @@ h1{
 }
 
 .quem-somos{
-    background-color: #f1f1f1;
     display: flex;
+    justify-content: space-around; 
+    align-items: center;
     font-size: 15px;
     font-family: "Montserrat", sans-serif;
     padding-top: 60px;
@@ -74,20 +75,16 @@ h1{
 
 .p-quem-somos{
     text-align: center;
-    width: 400px;
+    width: 700px;
     padding: 30px;
-    margin-left: 400px;
     justify-content: center;
-    align-items: center;
-    font-size: larger;
+    font-size: 20px;
+    
 }
 
-.div-valores{
-    background-color: #f9f9f9;
-}
+
 
 .valores{
-    background-color: #f9f9f9;
     font-family: "Montserrat", sans-serif;
     height: 600px;
     text-align: center;
@@ -95,7 +92,7 @@ h1{
     justify-content: center;
     padding-top: 70px;
     padding-bottom: 70px;
-    width: 400px;
+    width: 100%;
     margin: auto;
 }
 
@@ -111,7 +108,7 @@ h1{
 .h2-visao-de-transformacao{
     color: #1690a3;
     background-color: #faf36d;
-    width: 500px;
+    width: 400px;
     margin: auto;
     padding: 10px;
 }
@@ -139,6 +136,7 @@ h1{
 .p-historia{
     padding: 30px;
     font-size: 19px;
+    text-align: justify;
 }
 
 .img-historia{
@@ -183,3 +181,84 @@ a:visited{
 .img-footer{
     margin-right: auto; 
 }
+
+@media screen and (max-width: 480px){
+
+    .list-social{
+        display: none;
+    }
+
+    .btn-more-info{
+        display: none;
+    }
+
+    .btn-info-nav{
+        display: none;
+    }
+
+    .img-logo-header{
+        width:200px;
+    }
+
+    .img-footer{
+        display: none;
+    }
+
+    #p-footer{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    .img-quem-somos{
+        display: none;
+    }
+
+    .p-quem-somos{
+        font-size: 15px;
+    }
+
+    .valores{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-valores1{
+        width: 300px;
+    }
+
+    .img-valores2{
+        width: 300px;
+    }
+
+    .visao-de-transformacao{
+        width: 100%;
+    }
+
+    .h2-visao-de-transformacao{
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .p-visao-de-transformacao{
+        font-size: 15px;
+    }
+
+    .img-historia{
+        display: none;
+    }
+
+    .h2-historia{
+        font-size: 25px;
+    }
+    
+    .p-historia{
+        font-size: 15px;
+        text-align: justify;
+    }
+    
+ }
