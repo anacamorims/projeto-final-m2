@@ -9,6 +9,7 @@
 header{
     background-color: #006C7C;
     width: 100%;
+    position: fixed;
 }
 
 .list-nav{
@@ -79,8 +80,6 @@ h1{
     
 }
 
-
-
 .valores{
     font-family: "Montserrat", sans-serif;
     height: 600px;
@@ -93,6 +92,7 @@ h1{
     margin: auto;
 }
 
+
 .visao-de-transformacao{
     background-color: #1690a3;
     font-family: "Montserrat", sans-serif;
@@ -102,6 +102,7 @@ h1{
     padding: 10px;
 }
 
+
 .h2-visao-de-transformacao{
     color: #1690a3;
     background-color: #faf36d;
@@ -110,10 +111,12 @@ h1{
     padding: 10px;
 }
 
+
 .p-visao-de-transformacao{
     text-align: center;
     padding: 10px;
 }
+
 
 .h2-historia{
     text-align: center;
@@ -124,11 +127,13 @@ h1{
     font-size: 40px;
 }
 
+
 .div-historia{
     font-family: "Montserrat", sans-serif;
     display: flex;
     padding-bottom: 30px;
 }
+
 
 .p-historia{
     padding: 30px;
@@ -136,10 +141,12 @@ h1{
     text-align: justify;
 }
 
+
 .img-historia{
     display: flex;
     padding: 40px;
 }
+
 
 footer{
     background-color: #006C7C;
@@ -151,13 +158,16 @@ footer{
     border-top: #faf36d solid;
 }
 
+
 a{
     color: inherit;
 }
 
+
 a:visited{
     color: inherit;
 }
+
 
 .footer-content {
     display: flex;
@@ -165,6 +175,7 @@ a:visited{
     align-items: center;
     padding: 5px; 
 }
+
 
 #p-footer {
     flex-grow: 1; 
@@ -175,9 +186,11 @@ a:visited{
     font-size: 18px;
 }
 
+
 .img-footer{
     margin-right: auto; 
 }
+
 
 @media screen and (max-width: 480px){
 
