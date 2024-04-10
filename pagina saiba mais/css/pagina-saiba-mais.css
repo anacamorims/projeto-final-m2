@@ -70,25 +70,24 @@ border-bottom: #faf36d solid;
 .img-texto{
     display: flex;
     justify-content:center;
-
 }
 
 .container-texto{
-display: table-column;
-justify-content: center;
-align-items: center;
-margin-top: -55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
 }
 
 .img-onu{
-    margin-left: 260px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    width: 600px;
 }
 
 .texto-p{
-    font-size: 26px;
+    font-size: 25px;
     margin-top: 40px;
     margin-bottom: 40px;
     padding: 40px;
@@ -96,14 +95,14 @@ margin-top: -55px;
 }
 
 .texto-p2{
-    font-size: 20px;
+    font-size: 25px;
     padding:40px;
     font-family: "Montserrat", sans-serif;
 }
 
 .img-texto2{
-margin-left: 120px;
-display: flex;
+    display: flex;
+    justify-content: space-between;
 }
 
 .img-onuu{
@@ -128,7 +127,7 @@ footer{
     bottom: 0;
     width: 100%;
     line-height: 2rem;
-    position: relative;
+    position: fixed;
     border-top: #faf36d solid;
 }
 
@@ -158,4 +157,88 @@ a:visited{
 
 .img-footer{
     margin-right: auto; 
+}
+
+
+
+@media screen and (max-width: 480px) {
+    
+    header{
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-logo-header{
+        width: 200px;
+    }
+
+    .btn-info-nav{
+       display: none;
+    }
+    
+    .list-social{
+        display: none;
+    }
+
+    .titulo{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .texto-p{
+        font-size: 18px;
+        width: 400px;
+        text-align: justify;
+    }
+
+    .texto-p2{
+        text-align: justify;
+        font-size: 18px;
+    }
+
+    .img-texto{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-onu{
+        width: 350px;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .container-texto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .secti{
+        display: flex;
+    }
+
+   .img-texto2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-footer{
+        display: none;
+    }
+    
+    #p-footer{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .texto-onuu{
+        text-align: justify;
+        font-size: 18px;
+        padding-bottom: 40px;
+    }
+
 }
