@@ -1,4 +1,4 @@
-###🌞 Brilha Sol 🚀
+🌞 Brilha Sol 🚀
 
 #
 Neste projeto, utilizamos como base para a nossa pesquisa os  Objetivos de Desenvolvimento Sustentável da ONU, utilizando o tópico de Energia Limpa e Sustentável como base para o nosso trabalho.
@@ -31,8 +31,7 @@ Acesse o site [aqui](https://anacamorims.github.io/projeto-final-m2/)
 
 #
 
-[video-projeto-m2.webm](https://github.com/anacamorims/projeto-final-m2/assets/132526900/b61b3ccc-4473-4834-a44e-6753e560115a)
-
+![video-projeto-m2](https://github.com/anacamorims/projeto-final-m2/assets/132526900/3ff1862f-f56c-4297-87bb-4893ec53e990)
 
 #
 
@@ -40,4 +39,5 @@ Acesse o site [aqui](https://anacamorims.github.io/projeto-final-m2/)
 
 
 #
-🖇️ Aplicação desenvolvida como Miniprojeto do módulo 2 para a PdA(Programadores do Amanhã)  
+🖇️ Aplicação desenvolvida como projeto final do módulo 2 para a PdA(Programadores do Amanhã)  
+
