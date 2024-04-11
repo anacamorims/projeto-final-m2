@@ -19,6 +19,7 @@ Com isso, criamos uma página com uma Home, que contém todas as informações n
 - Responsividade 
 - Funções JS
 - Condicionais
+- Acessibilidade
 - DOM
 - Arrays
 - POO
@@ -32,6 +33,10 @@ Acesse o site [aqui](https://anacamorims.github.io/projeto-final-m2/)
 #
 
 ![video-projeto-m2](https://github.com/anacamorims/projeto-final-m2/assets/132526900/3ff1862f-f56c-4297-87bb-4893ec53e990)
+
+#
+
+![responsividade-m2](https://github.com/anacamorims/projeto-final-m2/assets/132526900/8d6fb026-d281-406a-9931-bee7c2b45463)
 
 #
 
