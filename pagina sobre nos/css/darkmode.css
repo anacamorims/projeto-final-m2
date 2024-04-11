@@ -60,14 +60,14 @@ body.dark {
   
 
 .checkbox:checked +.label .ball {
-    transform: translateX(24px);
+  transform: translateX(24px);
 }
   
 
 .fa-moon{
-    color: #f5d141;
+  color: #f5d141;
 }
   
 .fa-sun{
-    color: #f39c12;
+  color: #f39c12;
 }

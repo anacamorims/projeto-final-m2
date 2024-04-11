@@ -53,7 +53,7 @@ if (validenome) {
 
   localStorage.setItem('listaUser', JSON.stringify(listaUser));
   setTimeout(()=>{
-  window.open("http://127.0.0.1:5500/pagina%20principal/index.html", "_blank");  
+  window.open("../index.html", "_blank");  
   }, 3000)
 
   document.getElementById('mensagem').innerHTML = 'Cadastro realizado com sucesso!';

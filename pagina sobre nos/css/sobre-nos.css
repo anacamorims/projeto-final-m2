@@ -57,7 +57,7 @@ h1{
     align-items: center;
     justify-content: center;
     font-size: 65px;
-    height: 260px;
+    height: 280px;
     border-bottom: #faf36d solid 4px;
 }
 
@@ -77,7 +77,7 @@ h1{
     padding: 30px;
     justify-content: center;
     font-size: 20px;
-    
+    text-align: justify;
 }
 
 .valores{
@@ -192,6 +192,7 @@ a:visited{
 }
 
 
+
 @media screen and (max-width: 480px){
 
     .list-social{
@@ -221,7 +222,7 @@ a:visited{
 
     h1{
         font-size: 30px;
-        height: 100px;
+        height: 250px;
     }
 
     .img-quem-somos{
@@ -273,4 +274,4 @@ a:visited{
         text-align: justify;
     }
     
- }
+}

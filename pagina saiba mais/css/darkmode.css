@@ -17,6 +17,7 @@ body.dark {
 .darkMode{
   height: 20px;
   display: flex;
+  justify-content: end;
   left: 200px;
 }
 
