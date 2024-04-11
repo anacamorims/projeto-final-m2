@@ -29,8 +29,10 @@ Com isso, criamos uma página com uma Home, que contém todas as informações n
 
 Acesse o site [aqui](https://anacamorims.github.io/projeto-final-m2/)
 
+#
 
-(file:///home/ana/V%C3%ADdeos/Grava%C3%A7%C3%B5es%20de%20tela/Grava%C3%A7%C3%A3o%20de%20tela%20de%2010-04-2024%2022:16:26.webm)
+[video-projeto-m2.webm](https://github.com/anacamorims/projeto-final-m2/assets/132526900/b61b3ccc-4473-4834-a44e-6753e560115a)
+
 
 #
 
