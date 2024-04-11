@@ -44,5 +44,5 @@ Acesse o site [aqui](https://anacamorims.github.io/projeto-final-m2/)
 
 
 #
-🖇️ Aplicação desenvolvida como projeto final do módulo 2 para a PdA(Programadores do Amanhã)  
+🖇️ Aplicação desenvolvida como projeto final do módulo 2 para a PdA (Programadores do Amanhã)  
 
