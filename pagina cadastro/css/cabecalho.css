@@ -1,38 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     border: 0;
     box-sizing: border-box;
 }
 
-header{
+header {
     margin-bottom: 600px;
     background-color: #006C7C;
-    position:fixed;
+    position: fixed;
     width: 100%;
+    top: 0;  /* Adicionado para garantir que o header fique no topo */
 }
 
-.list-nav{
+.list-nav {
     display: flex;
     align-items: center;
     list-style: none;
     justify-content: space-around;
 }
 
-.list-social{
+.list-social {
     display: flex;
     align-items: end;
     justify-content: space-around;
     gap: 20px;
 }
 
-.social:hover{
+.social:hover {
     transform: scale(1.1);
 }
 
-.btn-more-info{
+.btn-more-info {
     border-bottom-style: solid;
     border-bottom-width: 5px;
     border-bottom-color: #006C7C;
@@ -46,28 +47,28 @@ header{
     font-size: 20px;
 }
 
-.btn-more-info:hover{
+.btn-more-info:hover {
     border-bottom-color: #faf36d;
     color: #faf36d;
 }
 
-footer{
+footer {
     background-color: #006C7C;
     left: 0;
     bottom: 0;
     width: 100%;
     line-height: 2rem;
     position: fixed;
-    font-family:  "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #d9d9d9;
-    border-top: #faf36d;
+    border-top: solid 1px #faf36d;
 }
 
-a{
+a {
     color: inherit;
 }
 
-a:visited{
+a:visited {
     color: inherit;
 }
 
@@ -75,41 +76,38 @@ a:visited{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px; 
-    border-top: solid #faf36d;
+    padding: 5px;
 }
 
 #p-footer {
-    flex-grow: 1; 
+    flex-grow: 1;
     text-align: center;
-    margin: 0; 
+    margin: 0;
 }
 
-.img-footer{
-    margin-right: auto; 
+.img-footer {
+    margin-right: auto;
 }
 
-@media screen and (max-width: 480px){
-    
-    .list-social{
+@media screen and (max-width: 480px) {
+    .list-social {
         display: none;
     }
 
-    .btn-more-info{
+    .btn-more-info {
         display: none;
     }
 
-    .img-logo-header{
-        width:200px;
+    .img-logo-header {
+        width: 200px;
     }
 
-    .img-footer{
+    .img-footer {
         display: none;
     }
-    
-    #p-footer{
+
+    #p-footer {
         font-size: 15px;
         text-align: center;
     }
-
 }
